@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -8,6 +8,25 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Client\e\" />
+    <Folder Include="Areas\Admin\Extension\" />
+    <Folder Include="Areas\Admin\Utility\" />
+    <Folder Include="Areas\Client\f\Customer\" />
+    <Folder Include="Areas\Client\" />
+    <Folder Include="wwwroot\Admin\" />
+    <Folder Include="wwwroot\Client\f\" />
+    <Folder Include="wwwroot\Client\e\" />
+    <Folder Include="wwwroot\Client\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.2" />
   </ItemGroup>
 
 </Project>

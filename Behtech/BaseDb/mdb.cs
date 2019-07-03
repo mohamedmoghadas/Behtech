@@ -8,6 +8,6 @@ namespace System
 {
     public class mdb
     {
-        public static BehTechEntities db = new Behtech.BaseModel.BehTechEntities();
+        public static BehTechEntities db = new Behtech.BaseModel.BehTechEntities(); 
     }
 }
